@@ -6,6 +6,7 @@ const URI = "http://localhost:8000/blogs/";
 
 const ShowBlogs = () => {
   const [blogs, setBlogs] = useState([]);
+
   useEffect(() => {
     getBlogs();
   }, []);
